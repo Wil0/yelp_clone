@@ -51,4 +51,5 @@ group :development do
   gem 'spring'
   gem 'haml'
   gem 'haml-rails'
+  gem 'devise'
 end
