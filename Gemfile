@@ -51,5 +51,6 @@ group :development do
   gem 'spring'
   gem 'haml'
   gem 'haml-rails'
+  gem 'omniauth-facebook'
   gem 'devise'
 end
