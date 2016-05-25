@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
-  resources :restaurants
 
   get 'restaurants' => 'restaurants#index'
+
+
+  resources :restaurants do
+    resources :reviews
+  end
   # get 'new_restaurants' => 'restaurants#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
